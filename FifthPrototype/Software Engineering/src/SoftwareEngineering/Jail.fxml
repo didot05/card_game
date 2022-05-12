@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="150.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SoftwareEngineering.JailController">
+   <children>
+      <VBox prefHeight="26.0" prefWidth="600.0">
+         <children>
+            <Label text="Would you like to pay £50 to be released from jail? " />
+            <Label text="If not, then you will miss your next 2 turns and will not collect rent from your properties." />
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0" />
+                  <Button fx:id="yesButton" mnemonicParsing="false" onAction="#clickedYes" text="Yes" />
+                  <Button fx:id="noButton" mnemonicParsing="false" onAction="#clickedNo" text="No" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

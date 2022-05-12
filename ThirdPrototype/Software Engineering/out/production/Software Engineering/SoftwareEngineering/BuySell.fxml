@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SoftwareEngineering.BuySellController">
+   <children>
+      <HBox fx:id="root" prefHeight="400.0" prefWidth="600.0" spacing="20.0">
+         <children>
+            <VBox prefHeight="400.0" prefWidth="285.0" spacing="10.0">
+               <children>
+                  <Label fx:id="playerLabel" text="Label" />
+                  <ListView fx:id="listProperties" prefHeight="276.0" prefWidth="247.0" />
+                  <Label fx:id="selectedProperty" prefHeight="21.0" prefWidth="227.0" text="Label" />
+                  <Label fx:id="numOfHouses" text="Label" />
+                  <Label fx:id="numOfHotels" text="Label" />
+               </children>
+            </VBox>
+            <VBox prefHeight="400.0" prefWidth="302.0" spacing="10.0">
+               <children>
+                  <ListView fx:id="listImprovements" prefHeight="274.0" prefWidth="273.0" />
+                  <Label fx:id="actionLabel" prefHeight="21.0" prefWidth="368.0" text="Label" />
+                  <HBox prefHeight="90.0" prefWidth="366.0" spacing="10.0">
+                     <children>
+                        <Button fx:id="improveButton" mnemonicParsing="false" onAction="#improve" text="Buy" />
+                        <Button fx:id="sellButton" mnemonicParsing="false" onAction="#sell" text="Sell" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox layoutX="619.0" prefHeight="400.0" prefWidth="314.0">
+         <children>
+            <Label prefHeight="21.0" prefWidth="193.0" text="Transactions" />
+            <ListView fx:id="listTransactions" prefHeight="379.0" prefWidth="176.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

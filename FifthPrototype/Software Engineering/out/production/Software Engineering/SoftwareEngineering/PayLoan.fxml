@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SoftwareEngineering.PayLoanController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0" spacing="20.0">
+         <children>
+            <Label fx:id="playerLabel" text="Label" />
+            <ListView fx:id="listProperties" prefHeight="200.0" prefWidth="200.0" />
+            <Label fx:id="actionLabel" text="Label" />
+            <Button fx:id="buyButton" mnemonicParsing="false" onAction="#buy" text="Buy" />
+            <Label fx:id="transactionLabel" text="Label" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SoftwareEngineering.Controller">
+   <center>
+      <GridPane prefHeight="600.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <StackPane fx:id="StackPane1" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image1" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label1" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane2" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="9" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image2" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label2" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane3" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image3" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label3" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane4" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image4" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label4" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane5" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image5" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label5" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane6" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image6" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label6" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane7" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image7" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label7" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane8" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image8" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label8" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane9" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image9" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label9" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane10" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image10" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label10" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane11" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="10">
+               <children>
+                  <ImageView fx:id="Image11" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label11" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane12" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="9">
+               <children>
+                  <ImageView fx:id="Image12" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label12" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane13" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="8">
+               <children>
+                  <ImageView fx:id="Image13" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label13" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane14" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="Image14" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label14" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane15" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="Image15" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label15" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane16" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="5">
+               <children>
+                  <ImageView fx:id="Image16" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label16" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane17" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="4">
+               <children>
+                  <ImageView fx:id="Image17" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label17" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane18" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="Image18" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label18" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane19" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="Image19" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label19" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane20" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="Image20" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label20" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane21" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="Image21" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label21" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane22" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <children>
+                  <ImageView fx:id="Image22" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label22" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane23" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2">
+               <children>
+                  <ImageView fx:id="Image23" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label23" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane24" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3">
+               <children>
+                  <ImageView fx:id="Image24" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label24" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane25" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4">
+               <children>
+                  <ImageView fx:id="Image25" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label25" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane26" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5">
+               <children>
+                  <ImageView fx:id="Image26" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label26" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane27" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6">
+               <children>
+                  <ImageView fx:id="Image27" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label27" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane28" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7">
+               <children>
+                  <ImageView fx:id="Image28" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label28" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane29" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="8">
+               <children>
+                  <ImageView fx:id="Image29" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label29" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane30" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="9">
+               <children>
+                  <ImageView fx:id="Image30" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label30" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane31" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10">
+               <children>
+                  <ImageView fx:id="Image31" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label31" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane32" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="Image32" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label32" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane33" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="Image33" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label33" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane34" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="Image34" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label34" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane35" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="4">
+               <children>
+                  <ImageView fx:id="Image35" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label35" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane36" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="5">
+               <children>
+                  <ImageView fx:id="Image36" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label36" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane37" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="Image37" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label37" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane38" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="Image38" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label38" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane39" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="8">
+               <children>
+                  <ImageView fx:id="Image39" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label39" text="Label" />
+               </children>
+            </StackPane>
+            <StackPane fx:id="StackPane40" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="10" GridPane.rowIndex="9">
+               <children>
+                  <ImageView fx:id="Image40" fitHeight="60.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="Label40" text="Label" />
+               </children>
+            </StackPane>
+         </children>
+      </GridPane>
+   </center>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="player1Label" />
+               </children></HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="player2Label" />
+               </children></HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="player3Label" />
+               </children></HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="player4Label" />
+               </children></HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="player5Label" />
+               </children></HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="player6Label" />
+               </children></HBox>
+         </children></VBox>
+   </right>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="rollDiceButton" mnemonicParsing="false" onAction="#rolledTheDice" text="Roll Dice" />
+            <ImageView fx:id="diceImage1" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/dice-1.png" />
+               </image></ImageView>
+            <ImageView fx:id="diceImage2" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/dice-1.png" />
+               </image></ImageView>
+            <Label fx:id="showCurrentPlayer" text="Label">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <Button fx:id="endTurnButton" mnemonicParsing="false" onAction="#endTheTurn" text="End Turn">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></HBox>
+   </bottom>
+</BorderPane>

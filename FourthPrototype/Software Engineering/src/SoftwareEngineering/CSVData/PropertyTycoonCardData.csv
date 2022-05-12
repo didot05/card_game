@@ -1,0 +1,41 @@
+﻿Property Tycoon board data,,,
+,,,
+Pot luck card data,,,
+,,,
+Description,,,Action
+"""You inherit £100""",,,Collect £100
+"""You have won 2nd prize in a beauty contest, collect £20""",,,Collect £20
+"""Go back to Crapper Street""",,,Move to Crapper Street
+"""Student loan refund. Collect £20""",,,Collect £20
+"""Bank error in your favour. Collect £200""",,,Collect £200
+"""Pay bill for text books of £100""",,,Pay £100
+"""Mega late night taxi bill pay £50""",,,Pay £50
+"""Advance to go""",,,Move to Go
+"""From sale of Bitcoin you get £50""",,,Collect £50
+"""Pay a £10 fine""",,,Fine £10
+"""Pay insurance fee of £50""",,,Fine £350
+"""Savings bond matures, collect £100",,,Collect £100
+"""Go to jail. Do not pass GO, do not collect £200""",,,Jail
+"""Received interest on shares of £25""",,,Collect £25
+"""It's your birthday. Collect £10 from each player""",,,Receive £10 from each player
+"""Get out of jail free""",,,Free jail card
+,,,
+Opportunity knocks card data,,,
+,,,
+Description,,,Action
+"""Bank pays you divided of £50""",,,Collect £50
+"""You have won a lip sync battle. Collect £100""",,,Collect £100
+"""Advance to Turing Heights""",,,Move to Turing Heights
+"""Advance to Han Xin Gardens. If you pass GO, collect £200""",,,Move to Han Xin Gardens
+"""Fined £15 for speeding""",,,Fine £15
+"""Pay university fees of £150""",,,Pay £150
+"""Take a trip to Hove station. If you pass GO collect £200""",,,Move to Hove Station
+"""Loan matures, collect £150""",,,Collect £150
+"""You are assessed for repairs, £40/house, £115/hotel""",,,Repair £40/house £115/hotel
+"""Advance to GO""",,,Move to Go
+"""You are assessed for repairs, £25/house, £100/hotel""",,,Repair £25/house £100/hotel
+"""Go back 3 spaces""",,,Back 3 spaces
+"""Advance to Skywalker Drive. If you pass GO collect £200""",,,Move to Skywalker Drive
+"""Go to jail. Do not pass GO, do not collect £200""",,,Jail
+"""Drunk in charge of a skateboard. Fine £20""",,,Fine £20
+"""Get out of jail free""",,,Free jail card

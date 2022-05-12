@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SoftwareEngineering.BuyPropertyController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0" spacing="20.0">
+         <children>
+            <Label fx:id="positionOfSquare" prefHeight="21.0" prefWidth="708.0" text="Position:" />
+            <Label fx:id="nameOfSquare" prefHeight="21.0" prefWidth="600.0" text="Name:" />
+            <Label fx:id="groupOfSquare" prefHeight="21.0" prefWidth="648.0" text="Group:" />
+            <Label fx:id="costOfSquare" prefHeight="21.0" prefWidth="639.0" text="Cost:" />
+            <Label fx:id="rentOfSquare" prefHeight="21.0" prefWidth="622.0" text="Rental Price:" />
+            <Label fx:id="improvementOfSquare" prefHeight="21.0" prefWidth="654.0" text="Improvement Cost: " />
+            <HBox prefHeight="50.0" prefWidth="600.0" spacing="10.0">
+               <children>
+                  <Label text="Would you like to buy?" />
+                  <Button fx:id="yesButton" mnemonicParsing="false" onAction="#wantToBuy" text="Yes" />
+                  <Button fx:id="noButton" mnemonicParsing="false" onAction="#dontWantToBuy" text="No" />
+                  <Button fx:id="mortgageButton" mnemonicParsing="false" onAction="#mortgage" text="Mortgage" />
+               </children>
+            </HBox>
+            <Button fx:id="confirmButton" mnemonicParsing="false" onAction="#confirmChoice" text="Confirm Choice" />
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
